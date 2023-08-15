@@ -6,7 +6,10 @@ The EPL Fantasy Football Neural Network Predictor is a sophisticated machine lea
 
 1. **Data Preparation (Player Data.ipynb)**: This notebook contains the code for collecting, processing, and preparing the data required for training and making predictions. It leverages the official FPL API to gather gameweek statistics for players in different positions (GK, DEF, MID, FWD) and organizes them into a structured format suitable for machine learning.
 
-2. **Prediction Model (Prediction Model.ipynb)**: This notebook encapsulates the neural network model designed to predict the next gameweek's total points for players based on their historical performance. Utilising a feed-forward neural network architecture, the model is trained on historical data and then used to predict future performance.
+
+2. **Prediction Script (prediction.py)**: This Python script is the primary tool for running the neural network model, which predicts the next gameweek's total points for players based on their historical performance. After processing the data, the script utilizes the trained neural network model to output predictions to a CSV file, providing an efficient and streamlined approach to generating fantasy player forecasts.
+
+3. **Legacy Prediction Model (Legacy/Prediction Model.ipynb)**: Previously the main tool for predictions, this notebook encapsulates the original neural network model used for player point predictions. While it's no longer the primary prediction tool, it remains valuable as it offers a detailed step-by-step walkthrough of the neural network architecture and its training process, serving as a comprehensive guide for those interested in the underlying methodology.
 
 ## Technical Details
 
